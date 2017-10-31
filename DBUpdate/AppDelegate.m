@@ -21,7 +21,15 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[MainViewController alloc] init];
     [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+/**
+ 创建数据库
+ */
+-(void)createTableFunc {
+
 }
 
 
